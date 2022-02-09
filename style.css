@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 body {
     background-color: burlywood;
+    display: flex;
+    align-items: center;
+}
+.list {
+    width: 50%;
+    background-color: aquamarine;
+    box-shadow: 0 0 20px 3px black;
+    margin: 0 auto;
+}
+.btn {
+    display: block;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+
+    margin: 100px auto 0;
+    padding: 20px 100px;
+
+    color: brown;
+    border:1px solid brown;
+    box-shadow: 0 0 10px 1px brown;
+}
+.btn:active{
+    box-shadow: none;
+}
+span {
+    border-bottom: 2px dotted brown;
+    padding: 5px 20px;
+}
+.text {
+    width: 80%;
+    font-size: 28px;
+    font-family: 'Yellowtail', cursive;
+    line-height: 30px;
+    margin: 40px auto 0;
 }
