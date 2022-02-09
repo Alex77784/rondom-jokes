@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 body {
     background-color: burlywood;
-    display: flex;
+    /* display: flex;
     align-items: center;
+    flex-direction: column; */
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
 }
 .list {
     width: 50%;
     background-color: aquamarine;
     box-shadow: 0 0 20px 3px black;
-    margin: 0 auto;
+    margin: 93px auto;
+    flex: 1 0 auto;
 }
 .btn {
     display: block;
@@ -17,7 +22,7 @@ body {
     font-weight: bold;
     line-height: 50px;
 
-    margin: 100px auto 0;
+    margin: 80px auto 0;
     padding: 20px 100px;
 
     color: brown;
@@ -27,7 +32,7 @@ body {
 .btn:active{
     box-shadow: none;
 }
-span {
+.click {
     border-bottom: 2px dotted brown;
     padding: 5px 20px;
 }
@@ -37,4 +42,47 @@ span {
     font-family: 'Yellowtail', cursive;
     line-height: 30px;
     margin: 40px auto 0;
+    text-align: center;
 }
+.author {
+    width: 50%;
+    font-size: 24px;
+    font-family: 'Yellowtail', cursive;
+    
+    margin: 50px auto 0; 
+    text-align: center;
+}
+/* footer */
+.footer {
+    background-color: black;
+}
+.box_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+}
+.github {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 15px;
+}
+.year {
+    padding: 0 7px;
+}
+.link__github {
+    color: white;
+    transition: .3s linear;
+}
+.link__github:hover {
+    color: #deb887;
+}
+.img_footer {
+    width: 150px;
+    transition: .3s linear;
+}
+.img_footer:hover {
+    filter: invert(10%) sepia(93%) saturate(260%) hue-rotate(322deg) brightness(92%) contrast(88%);
+    } 
