@@ -9,6 +9,10 @@ body {
 	min-height: 100%;
 }
 .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     width: 50%;
     background-color: aquamarine;
     box-shadow: 0 0 20px 3px black;
@@ -28,6 +32,9 @@ body {
     color: brown;
     border:1px solid brown;
     box-shadow: 0 0 10px 1px brown;
+}
+.btn:hover {
+background-color: burlywood;
 }
 .btn:active{
     box-shadow: none;
